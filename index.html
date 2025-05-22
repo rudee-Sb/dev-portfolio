@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <a href="main.html">Portfolio</a>
+            </div>
+
+            <div class="nav-right-items">
+                <ul class="list-items">
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#skill">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-sec">
+        <div class="hero-img-1">
+            <img src="image/hero-img-1.jpg" alt="#">
+        </div>
+
+        <div class="hero-intro">
+            <p>Web Developer</p>
+            <span id="firstname">RUDRA</span>
+            <span id="lastname">BHAU</span>
+            <p>Jaipur, INDIA</p>
+        </div>
+
+        <div class="hero-img-2">
+            <img src="image/hero-img-2.jpg" alt="#">
+        </div>
+    </section>
+
+    <section class="profile-sec" id="about">
+        <!-- <h2 class="sec-heading">About Me</h2> -->
+
+        <div class="profile">
+            <div class="text">
+                <h2 class="intro">Hello,<br>I'm Rudee!</h2>
+                <div class="main">
+                    <p class="about-main">-a self taught developer and lifelong learner who loves turning ideas into
+                        interactive
+                        realities.
+                    </p>
+                    <p class="about-main">
+                        I work with HTML, CSS, JavaScript, and dive into Python and Django for more dynamic, data-driven
+                        projects. I'm always exploring new tools, experimenting with design, and striving to write
+                        cleaner, smarter code.
+                    </p>
+                    <p class="about-main">
+                        When I'm not coding, you'll find me sketching, capturing moments, or wondering how to automate
+                        my to-do list... again.
+                    </p>
+                </div>
+                <div class="linkedin">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="https://linkedin.com/in/rudra-singh-bhau">linkedin.com/in/rudra-singh-bhau</a>
+                </div>
+            </div>
+            <div class="pimg">
+                <img src="image/profile_image.jpeg" alt="Portfolio Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="project-sec" id="work">
+        <h2 class="sec-heading">My Work</h2>
+
+        <!-- project card 1 -->
+        <div class="project-card" id="project-card-1">
+            <div class="proj-desc">
+                <h2>One..</h2>
+                <p>This project implements a simple image steganography technique using Python</p>
+            </div>
+            <div class="proj-preview" data-tilt>
+                <img src="image/Proj-1.jpg" alt="Project 1">
+                <a href="https://github.com/rudee-Sb/Python-Image-Steganography.git" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <!-- project card 2 -->
+        <div class="project-card" id="project-card-2">
+            <div class="proj-desc">
+                <h2>Two..</h2>
+                <p>A versatile web page featuring standard, scientific, and programmer calculators using HTML, CSS, and
+                    JavaScript.</p>
+            </div>
+            <div class="proj-preview" data-tilt>
+                <img src="image/Proj-2.jpg" alt="Project 2">
+                <a href="https://github.com/rudee-Sb/Calc-a-lot.git" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <!-- project card 3 -->
+        <div class="project-card" id="project-card-3">
+            <div class="proj-desc">
+                <h2>Three..</h2>
+                <p>Personal store website with responsive features. Built using Django for the backend and utilizes a
+                    MySQL database for data management.</p>
+            </div>
+            <div class="proj-preview" data-tilt>
+                <img src="image/Proj-3.png" alt="Project 3" style="background-color: beige;">
+                <a href="https://github.com/Anshul-Bhau/DesignDiaryStore.git" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-sec" id="skill">
+        <h2 class="sec-heading">Skills</h2>
+
+        <div class="skill-container">
+            <div class="skill-sec-img">
+                <img src="image/skill-img.jpg" alt="Skill">
+            </div>
+
+            <div class="skill-list">
+                <div class="skills" id="python">
+                    <img src="image/python.png" alt="image here">
+                    <p>Python</p>
+                </div>
+                <div class="skills" id="html">
+                    <img src="image/html.png" alt="image here">
+                    <p>Html</p>
+                </div>
+                <div class="skills" id="css">
+                    <img src="image/css.png" alt="image here">
+                    <p>CSS</p>
+                </div>
+                <div class="skills" id="js">
+                    <img src="image/js.png" alt="image here">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec" id="contact">
+        <h2 class="sec-heading">Contact</h2>
+
+        <div class="contact-container">
+            <div class="socials">
+                <div class="info">
+                    <p><i class="fa-solid fa-envelope"></i> rudrabhau844@email.com</p>
+                    <p><i class="fa-brands fa-github"></i><a href="https://github.com/rudee-Sb" target="_blank" class="page">github.com/rudee-Sb</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i> Jaipur, India</p>
+                    <p><i class="fa-solid fa-globe"></i> <a href="https://rudee.github.io" target="_blank"
+                            class="page">rudee-portfolio</a></p>
+                </div>
+
+                <div class="links">
+                    <div id="name">
+                        rudra singh bhau
+                    </div>
+                    <div class="cont_icons">
+                        <i class="fa-brands fa-github"><a href="github.com/rudee-Sb"></a></i>
+                        <i class="fa-brands fa-facebook"><a href="#"></a></i>
+                        <i class="fa-brands fa-instagram"><a href=""></a></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+</body>
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+
+</html>
